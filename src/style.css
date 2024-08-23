@@ -1,1 +1,68 @@
+body {
+  background-color: #feefe0;
+  font-family: "Montserrat", sans-serif;
+}
 
+a {
+  color: #4e281b;
+  font-weight: 700;
+  text-decoration: none;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  color: #4e281b;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.5;
+  color: #4e281b;
+}
+
+form {
+  padding: 5px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.ingredient {
+  padding: 16px;
+  border: 1px solid #4e281b;
+  width: 80%;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.recipe {
+  font-size: 20px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #4e281b;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}

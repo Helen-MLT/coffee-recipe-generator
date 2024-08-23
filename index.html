@@ -3,36 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&family=Major+Mono+Display&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=VT323&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Coffee Recipe Generator</title>
   </head>
   <body>
-    <header><h1>Coffee Recipe Generator</h1></header>
+    <div class="container">
+      <header><h1>Coffee Recipe Generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your ingredients"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>The recipe will go here</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Helen-MLT" target="_blank">Hélèna Milletti</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/Helen-MLT/coffee-recipe-generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://coffee-byhelen.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter your favourite flavor"
+            autofocus
+            required
+            class="ingredient"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">The recipe will go here</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Helen-MLT" target="_blank"
+          >Hélèna Milletti</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/Helen-MLT/coffee-recipe-generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://coffee-byhelen.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
