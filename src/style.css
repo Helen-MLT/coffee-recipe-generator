@@ -43,6 +43,10 @@ form {
   border: none;
 }
 
+.example {
+  margin: 30px 10px;
+}
+
 .submit-button {
   margin-left: 10px;
   background-color: #bbb2ff;
