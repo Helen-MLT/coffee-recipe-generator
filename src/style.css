@@ -8,14 +8,14 @@ body {
 }
 
 a {
-  color: #f3f3ea;
+  color: #e7f62a;
   font-weight: 700;
   text-decoration: none;
 }
 .container {
   margin: 120px auto;
   max-width: 600px;
-  color: #4e281b;
+  color: #e7f62a;
 }
 
 header {
@@ -27,7 +27,7 @@ h1 {
   font-size: 80px;
   text-align: center;
   line-height: 1.5;
-  color: #f3f3ea;
+  color: #e7f62a;
   margin: 0 auto;
   font-family: "Prata", serif;
 }
@@ -37,31 +37,33 @@ form {
   display: flex;
   margin: 30px 0;
 }
-
+::placeholder {
+  color: #e7f62a;
+}
 .ingredient {
   padding: 16px;
-  border: 1px solid #4e281b;
+  border: 1px solid #e7f62a;
   width: 80%;
   font-size: 16px;
   line-height: 20px;
-  color: #4e281b;
+  color: #e7f62a;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 15px;
-  background-color: #f3f3ea;
+  background-color: transparent;
 }
 
 .example {
   margin: 30px 10px;
-  color: #f3f3ea;
+  color: #e7f62a;
   font-size: 14px;
 }
 
 .submit-button {
   margin-left: 5px;
-  background-color: #f3f3ea;
+  background-color: transparent;
   border-radius: 15px;
-  color: #4e281b;
-  border: 1px solid #4e281b;
+  color: #e7f62a;
+  border: 1px solid #e7f62a;
   padding: 14px 24px;
   width: 150px;
   font-size: 16px;
@@ -72,14 +74,13 @@ form {
   font-size: 20px;
   padding: 20px;
   line-height: 2;
-  border: 1px solid #4e281b;
+  border: 1px solid #e7f62a;
   border-radius: 15px;
-  background-color: #f3f3ea;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
-  color: #f3f3ea;
+  color: #e7f62a;
 }
