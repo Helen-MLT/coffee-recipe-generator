@@ -1,10 +1,14 @@
 body {
   background-color: #feefe0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/140/760/original/leighann-blackwood-azGHoeRejbQ-unsplash.jpg?1724492408);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 a {
-  color: #4e281b;
+  color: #f3f3ea;
   font-weight: 700;
   text-decoration: none;
 }
@@ -19,17 +23,19 @@ header {
 }
 
 h1 {
-  font-weight: 800;
-  font-size: 48px;
+  font-weight: bolder;
+  font-size: 80px;
   text-align: center;
   line-height: 1.5;
-  color: #4e281b;
+  color: #f3f3ea;
+  margin: 0 auto;
+  font-family: "Prata", serif;
 }
 
 form {
-  padding: 5px;
+  padding: 0 auto;
   display: flex;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .ingredient {
@@ -38,35 +44,42 @@ form {
   width: 80%;
   font-size: 16px;
   line-height: 20px;
-  color: black;
-  font-family: "Space Grotesk", sans-serif;
-  border: none;
+  color: #4e281b;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  background-color: #f3f3ea;
 }
 
 .example {
   margin: 30px 10px;
+  color: #f3f3ea;
+  font-size: 14px;
 }
 
 .submit-button {
-  margin-left: 10px;
-  background-color: #bbb2ff;
-  color: white;
-  border: none;
+  margin-left: 5px;
+  background-color: #f3f3ea;
+  border-radius: 15px;
+  color: #4e281b;
+  border: 1px solid #4e281b;
   padding: 14px 24px;
   width: 150px;
   font-size: 16px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .recipe {
   font-size: 20px;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #4e281b;
+  border: 1px solid #4e281b;
+  border-radius: 15px;
+  background-color: #f3f3ea;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+  color: #f3f3ea;
 }
