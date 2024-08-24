@@ -7,7 +7,7 @@ function generateRecipe(event) {
     delay: 1,
     cursor: "",
   });
-
-  let coffeeRecipeElement = document.querySelector("#coffee-recipe-generator");
-  coffeeRecipeElement.addEventListener("submit", generateRecipe);
 }
+
+let coffeeRecipeElement = document.querySelector("#coffee-recipe-generator");
+coffeeRecipeElement.addEventListener("submit", generateRecipe);
